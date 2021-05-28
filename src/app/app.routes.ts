@@ -37,6 +37,7 @@ import { FavoritesComponent } from './components/favorites/favorites.component';
 import { RecentFilesComponent } from './components/recent-files/recent-files.component';
 import { SharedFilesComponent } from './components/shared-files/shared-files.component';
 import { DetailsComponent } from './components/details/details.component';
+import { FirstViewComponent } from './components/first-view/first-view.component';
 
 export const APP_ROUTES: Routes = [
   {
@@ -547,6 +548,10 @@ export const APP_ROUTES: Routes = [
             ]
           }
         ]
+      },
+      {
+        path: 'first-view',
+        component: FirstViewComponent
       },
       {
         path: '**',
