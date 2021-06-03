@@ -84,6 +84,7 @@ import localeFi from '@angular/common/locales/fi';
 import localeDa from '@angular/common/locales/da';
 import localeSv from '@angular/common/locales/sv';
 import { FirstViewComponent } from './components/first-view/first-view.component';
+import { FirstDatatableComponent } from './components/first-datatable/first-datatable.component';
 
 registerLocaleData(localeFr);
 registerLocaleData(localeDe);
@@ -147,7 +148,8 @@ registerLocaleData(localeSv);
     RecentFilesComponent,
     SharedFilesComponent,
     CreateFromTemplateDialogComponent,
-    FirstViewComponent
+    FirstViewComponent,
+    FirstDatatableComponent
   ],
   providers: [
     { provide: AppConfigService, useClass: DebugAppConfigService },
